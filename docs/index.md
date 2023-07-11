@@ -1,4 +1,3 @@
-## Welcome to Jian Xiang Home
 
 ### 自我介绍
 Hi，我是项健（英文名：Charles），自然语言处理算法工程师。 现在在做金融场景下，多模态OCR+NLP聚类算法设计与优化。 
