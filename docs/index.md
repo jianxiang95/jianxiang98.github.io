@@ -50,7 +50,7 @@ Hi，我是项健（英文名：Charles），自然语言处理算法工程师�
 
 **邮箱地址**：<3426522815@qq.com>
 
-**领英地址**：<https://www.linkedin.com/in/jian-xiang-02a82116a/>
+**领英地址**：<https://www.linkedin.com/in/jian-xiang-profile/>
 
 ### Intro
 Hi，My name is Jian Xiang(English name: Charles), NLP Engineer in Beijing, China.
@@ -96,7 +96,7 @@ Hi，My name is Jian Xiang(English name: Charles), NLP Engineer in Beijing, Chin
 
 **Email Address**：<3426522815@qq.com>
 
-**linkedin**：<https://www.linkedin.com/in/jian-xiang-02a82116a/>
+**linkedin**：<https://www.linkedin.com/in/jian-xiang-profile/>
 
 
 
