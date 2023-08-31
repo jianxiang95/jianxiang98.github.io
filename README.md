@@ -65,17 +65,11 @@ Hi，My name is Jian Xiang(English name: Charles), NLP Engineer in Beijing, Chin
 
 ### Work Experience 2
 
-**Project description:** Responsible for using deep learning and natural language processing technology to design open source license text compliance recommendation system algorithm, text big data analysis, and code big data research and development.
+**Project description:** Responsible for utilizing Deep Learning and Natural Language Processing technology to do open source license automated compliance system, text mining to help customers avoid software knowledge right litigation.
 
-1. Based on the PyTorch framework, fine-grained analysis of license documents is used for named entity recognition tasks, and methods such as transfer learning pre-trained language model BERT and conditional random field CRF, contrastive learning, and prompt learning are used to identify open source licenses For entities such as rights, obligations, behaviors, conditions, etc., the F1 score exceeds 80%, in order to recommend the fine-grained terms of the open source license of the code to users.
-   
-2. Based on the UIE framework of prompt-based universal joint information extraction, construct the structure extraction language SEL, and use the span extraction method to extract the start and end positions of named entities.
-   
-3. Use re-weighting (re-weighting) such as focal loss methods to solve the long-tail distribution problem in NER tasks.
-
-4. Perform semantic matching on TB-level text data, use rules and template methods to automatically align users with SPDX official licenses, and solve 70% semantic consistency problems.
- 
-5. Design multi-source vulnerability mining and intelligent vulnerability repair algorithms based on data mining technology, and automatically update the vulnerability database through scheduled tasks, reducing the workload of operation and maintenance by 30%.
+1.Parsed open source license docment to do Named Entity Recognition(NER) and Relation Extraction in Few-Shot scenario based on PyTorch framework. Combined with Contrastive Learning and Prompt Learning to recognize open source license rights, obligations, behaviors and conditions entities and relationships between entities. F1 score is above 85%. 
+2. On the basis of T5-base pretrained model, exploited Universal Information Extraction(UIE) framework with Prompt Learning to construct Structured Extraction Language in order to spot locations of named entities and their relations ground on Span Extraction. 
+3. Utilized text analysis modules to align users' license with SPDX official license to solve 70% semantic consistency problems.
 
 ### Work Experience 3
 **Project description:** This project utilized iterative recommendation algorithms for an e-commerce website's best-selling list, similar recommendation on detail pages, and matching recommendation on shopping cart pages. The purpose is to improve the effective conversion rate of product sales and improve user experience through personalized recommendations.
