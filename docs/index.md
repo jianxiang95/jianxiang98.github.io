@@ -15,12 +15,11 @@ Hi，我是项健（英文名：Charles），自然语言处理算法工程师�
 
 2021年3月 - 2023年3月，技术经理，北京大学
 
-**项目描述：** 负责利用深度学习、自然语言处理技术做开源许可证文本合规推荐系统算法设计，文本大数据分析，代码大数据研发工作。
-1. 基于PyTorch框架细粒度解析许可证文档做命名实体识别任务，利用迁移学习预训练语言模型BERT和条件随机场CRF、对比学习（Contrastive Learning)、提示学习（Prompt Learning）等方法识别开源许可证权利、义务、行为、条件等实体，F1分数超过80%，以便将代码的开源许可证细粒度条款推荐给用户。
-2. 基于prompt 的通用联合信息抽取UIE框架，构建结构提取语言SEL，采用span抽取方式抽取命名实体开始和结束位置。
-3. 利用重加权(re-weighting)如focal loss方法来解决NER任务中长尾分布问题。
-4. 对TB级文本数据做语义匹配，运用规则和模版方法自动对齐用户和SPDX官方许可证，解决70%语义一致性问题。
-5. 基于数据挖掘技术设计多源漏洞挖掘、漏洞智能修复算法，通过定时任务自动更新漏洞库，减少30%运维工作量。
+**项目描述：** 负责利用深度学习、自然语言处理技术做开源许可证文本自动化合规冲突检测算法设计，文本大数据分析，代码大数据研发工作。
+1. 基于PyTorch框架细粒度解析许可证文档做小样本命名实体识别和关系抽取任务，结合对比学习（Contrastive Learning)、提示学 习（Prompt Learning）等方法在小样本场景下识别开源许可证权利、义务、行为、条件等实体及实体间关系，F1分数超过85%。
+2. 在T5-base预训练模型基础上，基于prompt 的通用联合信息抽取UIE框架，构建结构提取语言SEL，采用span抽取方式抽取命名实 体和实体关系开始和结束位置。
+3. 对TB级文本数据做语义匹配，运用规则和模版方法自动对齐用户和SPDX官方许可证，解决70%语义一致性问题。
+4. 基于数据挖掘技术设计多源漏洞挖掘、漏洞智能修复算法，通过定时任务自动更新漏洞库，减少30%运维工作量。
 
 
 ### 工作经历 3
@@ -67,17 +66,13 @@ Hi，My name is Jian Xiang(English name: Charles), NLP Engineer in Beijing, Chin
 
 ### Work Experience 2
 
-**Project description:** Responsible for using deep learning and natural language processing technology to design open source license text compliance recommendation system algorithm, text big data analysis, and code big data research and development.
+**Project description:** Responsible for utilizing Deep Learning and Natural Language Processing technology to do open source license automated compliance system, text mining to help customers avoid software knowledge right litigation.
 
-1. Based on the PyTorch framework, fine-grained analysis of license documents is used for named entity recognition tasks, and methods such as transfer learning pre-trained language model BERT and conditional random field CRF, contrastive learning, and prompt learning are used to identify open source licenses For entities such as rights, obligations, behaviors, conditions, etc., the F1 score exceeds 80%, in order to recommend the fine-grained terms of the open source license of the code to users.
-   
-2. Based on the UIE framework of prompt-based universal joint information extraction, construct the structure extraction language SEL, and use the span extraction method to extract the start and end positions of named entities.
-   
-3. Use re-weighting (re-weighting) such as focal loss methods to solve the long-tail distribution problem in NER tasks.
+1. Parsed open source license docment to do Named Entity Recognition(NER) and Relation Extraction in Few-Shot scenario based on PyTorch framework. Combined with Contrastive Learning and Prompt Learning to recognize open source license rights, obligations, behaviors and conditions entities and relationships between entities. F1 score is above 85%.
 
-4. Perform semantic matching on TB-level text data, use rules and template methods to automatically align users with SPDX official licenses, and solve 70% semantic consistency problems.
- 
-5. Design multi-source vulnerability mining and intelligent vulnerability repair algorithms based on data mining technology, and automatically update the vulnerability database through scheduled tasks, reducing the workload of operation and maintenance by 30%.
+2. On the basis of T5-base pretrained model, exploited Universal Information Extraction(UIE) framework with Prompt Learning to construct Structured Extraction Language in order to spot locations of named entities and their relations ground on Span Extraction.
+   
+3. Utilized text analysis modules to align users' license with SPDX official license to solve 70% semantic consistency problems.
 
 ### Work Experience 3
 **Project description:** This project utilized iterative recommendation algorithms for an e-commerce website's best-selling list, similar recommendation on detail pages, and matching recommendation on shopping cart pages. The purpose is to improve the effective conversion rate of product sales and improve user experience through personalized recommendations.
